@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/BigTunaIsYeiling/Portfolio/static/css/main.af1db637.css",
-    "main.js": "/BigTunaIsYeiling/Portfolio/static/js/main.0492e003.js",
-    "static/media/darklo.png": "/BigTunaIsYeiling/Portfolio/static/media/darklo.40b142f56025bfb9f3e4.png",
-    "static/media/aa.pdf": "/BigTunaIsYeiling/Portfolio/static/media/aa.b952c1e94bc124119cc4.pdf",
-    "static/media/hello.png": "/BigTunaIsYeiling/Portfolio/static/media/hello.4477872f35ebc8fcf2ec.png",
-    "static/media/github.png": "/BigTunaIsYeiling/Portfolio/static/media/github.05f6c17b8cd04c28456f.png",
-    "static/media/linkedin.png": "/BigTunaIsYeiling/Portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
-    "index.html": "/BigTunaIsYeiling/Portfolio/index.html",
-    "main.af1db637.css.map": "/BigTunaIsYeiling/Portfolio/static/css/main.af1db637.css.map",
-    "main.0492e003.js.map": "/BigTunaIsYeiling/Portfolio/static/js/main.0492e003.js.map"
+    "main.css": "/Portfolio/static/css/main.af1db637.css",
+    "main.js": "/Portfolio/static/js/main.832206a5.js",
+    "static/media/darklo.png": "/Portfolio/static/media/darklo.40b142f56025bfb9f3e4.png",
+    "static/media/aa.pdf": "/Portfolio/static/media/aa.b952c1e94bc124119cc4.pdf",
+    "static/media/hello.png": "/Portfolio/static/media/hello.4477872f35ebc8fcf2ec.png",
+    "static/media/github.png": "/Portfolio/static/media/github.05f6c17b8cd04c28456f.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/Portfolio/index.html",
+    "main.af1db637.css.map": "/Portfolio/static/css/main.af1db637.css.map",
+    "main.832206a5.js.map": "/Portfolio/static/js/main.832206a5.js.map"
   },
   "entrypoints": [
     "static/css/main.af1db637.css",
-    "static/js/main.0492e003.js"
+    "static/js/main.832206a5.js"
   ]
 }
