@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  z-index: 99;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 242, 242, 1) 42%,
+    rgba(250, 212, 212, 1) 100%
+  );
+  .logo {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    opacity: 0.7;
+  }
+  .laca {
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    a {
+      font-weight: 600;
+    }
+  }
+}
+
+.burger {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4px 2px;
+  cursor: pointer;
+  transition: 0.7s;
+  line-height: 3px;
+  .bar {
+    position: relative;
+    width: 17px;
+    background-color: black;
+    height: 2px;
+    border-radius: 4%;
+    transition: 0.7s;
+    margin: 2px 0px;
+  }
+  &:hover {
+    .bar:nth-child(2) {
+      transform: translateX(-2px);
+    }
+  }
+  .bar:nth-child(1).close {
+    transform: rotate(45deg) translateY(8px) translateX(4px);
+  }
+
+  .bar:nth-child(2).close {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  .bar:nth-child(3).close {
+    transform: rotate(-45deg) translateY(-5px);
+  }
+}
+header .nav {
+  position: absolute;
+  top: 80px;
+  transition: 0.8s;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 100;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 242, 242, 1) 42%,
+    rgba(250, 212, 212, 1) 100%
+  );
+  ul li {
+    list-style: none;
+    margin: 20px 0px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #777;
+    font-weight: 500;
+    a {
+      color: #777;
+      text-decoration: none;
+      transition: 0.5s;
+      &:hover {
+        color: #777;
+      }
+      &.active {
+        color: black;
+      }
+    }
+  }
+}
+header .navie {
+  ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 12px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #777;
+    font-weight: 500;
+    transition: 0.8s;
+    a {
+      color: #777;
+      text-decoration: none;
+      transition: 0.5s;
+      &:hover {
+        color: #777;
+      }
+      &.active {
+        color: black;
+      }
+    }
+  }
+}
